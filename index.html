@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>Myindia</title>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap"
@@ -12,33 +12,37 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
     />
+    <script defer src="js/script.js"></script>
   </head>
+
   <body>
-    <header>
+    <header class="header">
       <nav>
         <div class="logo">
           <h1 class="animated infinite heartBeat">Mera Bharat</h1>
         </div>
         <div class="menu">
           <a href="#">Home</a>
-          <a href="#">Gallery</a>
-          <a href="#">contact</a>
+          <a href="#gallery">Gallery</a>
+          <a href="contact.html">contact</a>
           <a href="https://www.youtube.com/" target="_blank">About</a>
         </div>
       </nav>
+    </header>
 
-      <main>
-        <section>
+    <main>
+      <section class="first-section">
+        <div class="container">
           <h3>Welcome to India</h3>
           <h1>Do come and visit <span class="change_content"></span></h1>
           <p>India once is not enough</p>
-          <a href="#" class="btnone">Leran more</a>
-          <a href="#" class="btntwo">Sign up here</a>
-        </section>
-      </main>
-    </header>
+          <a href="https://www.youtube.com/watch?v=MZVVFSiSl1s" class="btnone">Leran more</a>
+          <a href="https://www.youtube.com/watch?v=HWGzQlrJOqM" class="btntwo">Documentary</a>
+        </div>
+      </section>
 
-    <sectiontwo>
+      
+    <sectiontwo id="gallery">
       <article>
         <h2>Ahmedabad</h2>
 
@@ -97,6 +101,7 @@
           Sawai Jai Singh in laying out the city's architecture. Major places,
           roads and squares took 4 years for their completion and each was
           constructed keeping in mind the techniques of Vastu Shastra.
+          <br/><br/>
         </p>
       </article>
 
@@ -222,10 +227,10 @@
     </sectiontwo>
 
     <footer>
-      <p>
-        This is official MyIndia website || Copyright by
-        parthiv46patel@gmail.com
-      </p>
+   <div class="footer-copyright">
+        Copyright &copy; Parthiv Patel <span class="year"></span> 
+        </div>
+
     </footer>
   </body>
 </html>
