@@ -241,6 +241,7 @@ footer {
   border-bottom: 2px solid rgba(255, 0, 0, 0.6);
   width: 8%;
   margin-left: 0;
+  margin-bottom: 5px;
 }
 .Form-left span {
   color: rgb(187, 182, 182);
@@ -353,4 +354,19 @@ form button {
     text-decoration: none;
     color: rgb(187, 182, 182);
   }
+}
+
+/*about section*/
+.about-sections {
+  margin-top: 5rem;
+  margin-right: 5rem;
+}
+
+.about-heading {
+  font-size: 40px;
+}
+
+.about-text {
+  font-size: 25px;
+  word-spacing: 2px;
 }
